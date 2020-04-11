@@ -75,6 +75,14 @@ public class Conditions {
                 yield 5;
         };
         System.out.println(value);
+        
+                //////////// Enhanced Switch-case  //////////////
+        int choice = 3;
+        switch (choice) {
+            case 1 -> System.out.println("One");
+            case 2 -> System.out.println("Two");
+            case 3 -> System.out.println("Three");
+        }
 
     }
 }
